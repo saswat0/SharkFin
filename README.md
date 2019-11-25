@@ -16,3 +16,16 @@ SharkFin is a modified version of ReLU which has the following formula:
 **f(x) = Tanh(e<sup>x</sup>).ReLU(-1,x) = Tanh(e<sup>x</sup>).max(-1,x)**
 <br>
 <div style="text-align:center"><img src ="assets/All.png"  width="1000"/></div>
+
+
+## CIFAR-10:
+
+- Network - ResNet v1-20
+- Epoch - 20
+- Optimizer - Adam
+- Number of Runs - 3
+
+|Activation Function|Test Accuracy|Test Loss|σ accuracy|σ loss|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin|82.6067%|7.8006%|0.6249444|0.292334031|
+|Mish|81.85%|7.5327%|3.064647|1.1073503|
