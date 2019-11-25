@@ -15,7 +15,4 @@ SharkFin is a modified version of ReLU which has the following formula:
 <br>
 **f(x) = Tanh(e<sup>x</sup>).relu(-1,x)**
 <br>
-<p align="center">
-  <img width="370" height="370" src="assets/graph_te_relu.png">
-</p>
 <div style="text-align:center"><img src ="assets/All.png"  width="1000"/></div>
