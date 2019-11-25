@@ -1,4 +1,4 @@
-<img align="left" width="190" height="190" src="logo/logo.png">
+<img align="left" width="150" height="150" src="logo/logo.png">
 
 # SharkFin
 <p align="left">
