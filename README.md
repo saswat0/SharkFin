@@ -17,7 +17,7 @@ SharkFin is a modified version of ReLU which has the following formula:
 <br>
 Derivative: 
 <div style="text-align:center"><img src ="assets/derivative.png"  width="500"/></div><br>
-<div style="text-align:center"><img src ="assets/All.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="assets/All1.png"  width="1000"/></div>
 
 
 ## CIFAR-10:
