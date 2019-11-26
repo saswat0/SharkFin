@@ -27,7 +27,7 @@ Derivative:
 - Optimizer - Adam
 - Number of Runs - 3
 
-|Activation Function|Test Accuracy|Test Loss|σ accuracy|σ loss|
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |SharkFin|82.6067%|7.8006%|0.6249444|0.292334031|
 |Mish|81.85%|7.5327%|3.064647|1.1073503|
