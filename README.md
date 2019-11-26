@@ -51,3 +51,4 @@ Derivative:
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |SharkFin|82.167%|8.9934%|0.984626|0.4272043|
+|Swish|81.44%|7.83062%|0.7884584|0.1659273|
