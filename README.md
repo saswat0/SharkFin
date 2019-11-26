@@ -22,7 +22,7 @@ Derivative:
 
 ## CIFAR-10:
 
-### ResNet v1-20
+### ResNet 20
 
 - Epoch - 20
 - Optimizer - Adam
@@ -42,7 +42,7 @@ Derivative:
 
 <div style="text-align:center"><img src ="assets/test_res20.png"  width="1000"/></div>
 
-### ResNet v1-56
+### ResNet 56
 
 - Epoch - 20
 - Optimizer - Adam
