@@ -24,9 +24,9 @@ Derivative:
 
 ### ResNet 20
 
-- Epoch - 20
-- Optimizer - Adam
-- Number of Runs - 3
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
 
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
@@ -44,9 +44,9 @@ Derivative:
 
 ### ResNet 56
 
-- Epoch - 20
-- Optimizer - Adam
-- Number of Runs - 3
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
 
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
