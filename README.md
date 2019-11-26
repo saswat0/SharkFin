@@ -37,3 +37,5 @@ Derivative:
 |ELU|80.497%|7.7353%|0.527278|0.405108|
 |TanH|66.643%|12.6799%|**0.3068478**|0.2829257|
 |Sigmoid|24.44%|38.2795%|13.715487|11.328736|
+
+<div style="text-align:center"><img src ="assets/test_res20.png"  width="1000"/></div>
