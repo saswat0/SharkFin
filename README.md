@@ -15,6 +15,8 @@ SharkFin is a modified version of ReLU which has the following formula:
 <br>
 **f(x) = Tanh(e<sup>x</sup>).ReLU(-1,x) = Tanh(e<sup>x</sup>).max(-1,x)**
 <br>
+Derivative: 
+<div style="text-align:center"><img src ="assets/derivative.png"  width="500"/></div><br>
 <div style="text-align:center"><img src ="assets/All.png"  width="1000"/></div>
 
 
@@ -25,7 +27,13 @@ SharkFin is a modified version of ReLU which has the following formula:
 - Optimizer - Adam
 - Number of Runs - 3
 
-|Activation Function|Test Accuracy|Test Loss|σ accuracy|σ loss|
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
-|SharkFin|82.6067%|7.8006%|0.6249444|0.292334031|
-|Mish|81.85%|7.5327%|3.064647|1.1073503|
+|SharkFin|**82.6067%**|7.8006%|0.6249444|0.292334031|
+|Mish|81.85%|**7.5327%**|3.064647|1.1073503|
+|Swish|80.64%|7.8447%|0.3747888|**0.152951**|
+|ReLU|79.02%|8.5212%|2.048854|0.7663393|
+|SELU|78.96%|8.0047%|2.156803|0.6439562|
+|ELU|80.497%|7.7353%|0.527278|0.405108|
+|TanH|66.643%|12.6799%|**0.3068478**|0.2829257|
+|Sigmoid|24.44%|38.2795%|13.715487|11.328736|
