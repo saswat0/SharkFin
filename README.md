@@ -22,7 +22,8 @@ Derivative:
 
 ## CIFAR-10:
 
-- Network - ResNet v1-20
+### ResNet v1-20
+
 - Epoch - 20
 - Optimizer - Adam
 - Number of Runs - 3
@@ -42,9 +43,10 @@ Derivative:
 |Softsign|55.396%|18.0109%|8.7452285|3.7473952|
 |Leaky ReLU|79.483%|8.0239%|2.1014492|0.6178107|
 
-<div style="text-align:center"><img src ="assets/test_res20.png"  width="1000"/></div>\
+<div style="text-align:center"><img src ="assets/test_res20.png"  width="1000"/></div>
 
-- Network - ResNet v1-56
+### ResNet v1-56
+
 - Epoch - 20
 - Optimizer - Adam
 - Number of Runs - 3
