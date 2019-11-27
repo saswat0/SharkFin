@@ -17,9 +17,9 @@ SharkFin v1 is a modified version of ReLU which has the following formula:
 <br>
 SharkFin v2 is a modified smoother version of SharkFin v1 which has the following formula: 
 <br>
-**f(x) = Tanh(e<sup>x</sup>).clamp(-1,x)**
+**f(x) = Tanh(e<sup>x</sup>).clamp(x, min_value = -1, max_value = None)**
 <br>
-Derivative: 
+Derivative of SharkFin v1: 
 <div style="text-align:center"><img src ="assets/derivative.png"  width="500"/></div><br>
 <div style="text-align:center"><img src ="assets/All11.png"  width="1000"/></div><br>
 
