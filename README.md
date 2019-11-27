@@ -23,6 +23,12 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 
 <div style="text-align:center"><img src ="assets/landscape.png"  width="1000"/></div>
 
+Drop in Test accuracy with increasing depth for MNIST classification:
+
+<p float="left">
+  <img src="assets/layersacc1.png"  width="420"/>
+</p>
+
 ## CIFAR-10:
 
 ### ResNet 20
