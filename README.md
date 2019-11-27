@@ -109,9 +109,9 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |Activation Function |Test Accuracy|Test Loss|
 |:---:|:---:|:---:|
 |SharkFin v1|83.49%|4.925%|
-|SharkFin v2|84.1%|4.988%|
+|SharkFin v2|84.3%|4.834%|
 |ReLU|82.18%|5.528%|
-|Mish|84.71%|4.712%|
+|Mish|**84.71%**|**4.712%**|
 |Swish|83.29%|5.056%|
 |ELU|84.51%|4.737%|
 |SELU|83.7%|4.94%|
@@ -119,3 +119,17 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |PReLU|83.76%|5.086%|
 |TanH|76.15%|6.817%|
 |SoftPlus|83.22%|5.151%|
+
+### SE ResNet-34:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *1*
+
+|Activation Function |Test Accuracy|Test Loss|
+|:---:|:---:|:---:|
+|SharkFin v1|88.51%|3.852%|
+|SharkFin v2|
+|Leaky ReLU|87.51%|3.76%|
+|Mish|89.42%|3.472%|
+|Swish|88.88%|3.619%|
