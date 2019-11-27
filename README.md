@@ -17,8 +17,11 @@ SharkFin is a modified version of ReLU which has the following formula:
 <br>
 Derivative: 
 <div style="text-align:center"><img src ="assets/derivative.png"  width="500"/></div><br>
-<div style="text-align:center"><img src ="assets/All1.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="assets/All1.png"  width="1000"/></div><br>
 
+Output Landscape of a randomly initialized six-layered fully connected network with co-ordinates as scalar inputs. 
+
+<div style="text-align:center"><img src ="assets/landscape.png"  width="1000"/></div>
 
 ## CIFAR-10:
 
