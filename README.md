@@ -108,7 +108,7 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 
 |Activation Function |Test Accuracy|Test Loss|
 |:---:|:---:|:---:|
-|SharkFin v1|83.04%|5.189%|
+|SharkFin v1|83.49%|4.925%|
 |SharkFin v2|84.1%|4.988%|
 |ReLU|82.18%|5.528%|
 |Mish|84.71%|4.712%|
