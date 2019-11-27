@@ -60,3 +60,4 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 |Mish|81.97%|7.8868%|0.803616|0.31262063|
 |SELU|76.363%|9.380397%|2.0838639|0.6248774|
 |ELU|80.3867%|8.02079%|2.444931|0.8199566|
+|Leaky ReLU|77.68%|8.79255%|1.071727577|0.4718626|
