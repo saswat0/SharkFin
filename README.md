@@ -11,17 +11,21 @@
 <br>
 <br>
 
-SharkFin is a modified version of ReLU which has the following formula: 
+SharkFin v1 is a modified version of ReLU which has the following formula: 
 <br>
 **f(x) = Tanh(e<sup>x</sup>).ReLU(-1,x) = Tanh(e<sup>x</sup>).max(-1,x)**
 <br>
-Derivative: 
+SharkFin v2 is a modified smoother version of SharkFin v1 which has the following formula: 
+<br>
+**f(x) = Tanh(e<sup>x</sup>).clamp(x, min_value = -1, max_value = None)**
+<br>
+Derivative of SharkFin v1: 
 <div style="text-align:center"><img src ="assets/derivative.png"  width="500"/></div><br>
-<div style="text-align:center"><img src ="assets/All1.png"  width="1000"/></div><br>
+<div style="text-align:center"><img src ="assets/All11.png"  width="1000"/></div><br>
 
 Output Landscape of a randomly initialized six-layered fully connected network with co-ordinates as scalar inputs. 
 
-<div style="text-align:center"><img src ="assets/landscape.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="assets/landskape.png"  width="1000"/></div>
 
 Drop in Test accuracy with increasing depth for MNIST classification:
 
@@ -39,7 +43,7 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
-|SharkFin|**82.6067%**|7.8006%|0.6249444|0.292334031|
+|SharkFin v1|**82.6067%**|7.8006%|0.6249444|0.292334031|
 |Mish|81.85%|**7.5327%**|3.064647|1.1073503|
 |Swish|80.64%|7.8447%|0.3747888|0.152951|
 |ReLU|79.02%|8.5212%|2.048854|0.7663393|
@@ -60,7 +64,7 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
-|SharkFin|**82.167%**|8.9934%|0.984626|0.4272043|
+|SharkFin v1|**82.167%**|8.9934%|0.984626|0.4272043|
 |Swish|81.44%|**7.83062%**|**0.7884584**|**0.1659273**|
 |ReLU|79.323%|8.7444%|1.082507|0.27063429|
 |Mish|81.97%|7.8868%|0.803616|0.31262063|
@@ -79,7 +83,7 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 
 |Activation Function |Test Accuracy|Test Loss|
 |:---:|:---:|:---:|
-|SharkFin|**85.84%**|4.419%|
+|SharkFin v2|**85.84%**|4.419%|
 |ReLU|84.74%|4.503%|
 |Mish|84.96%|4.381%|
 |Swish|85.73%|**4.175%**|
