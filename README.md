@@ -56,7 +56,7 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |Leaky ReLU|79.483%|8.0239%|2.1014492|0.6178107|
 |PReLU|82.4%|7.3859%|0.623591|**0.043733**|
 
-<div style="text-align:center"><img src ="assets/test_res20.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="assets/test_res20v1.png"  width="1000"/></div>
 
 ### ResNet 56
 
