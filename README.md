@@ -86,8 +86,8 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 
 |Activation Function |Test Accuracy|Test Loss|
 |:---:|:---:|:---:|
-|SharkFin v2|**85.84%**|4.419%|
 |SharkFin v1|83.41%|4.9%|
+|SharkFin v2|**85.84%**|4.419%|
 |ReLU|84.74%|4.503%|
 |Mish|84.96%|4.381%|
 |Swish|85.73%|**4.175%**|
@@ -99,3 +99,23 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |SoftPlus|83.83%|4.799%|
 
 <div style="text-align:center"><img src ="assets/squeezenet1.png"  width="1000"/></div>
+
+### Shuffle Net v1:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *1*
+
+|Activation Function |Test Accuracy|Test Loss|
+|:---:|:---:|:---:|
+|SharkFin v1|
+|SharkFin v2|
+|ReLU|82.18%|5.528%|
+|Mish|84.71%|4.712%|
+|Swish|83.29%|5.056%|
+|ELU|84.51%|4.737%|
+|SELU|83.7%|4.94%|
+|Leaky ReLU|83.95%|4.816%|
+|PReLU|83.76%|5.086%|
+|TanH|76.15%|6.817%|
+|SoftPlus|83.22%|5.151%|
