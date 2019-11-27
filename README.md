@@ -32,7 +32,7 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 Drop in Test accuracy with increasing depth for MNIST classification:
 
 <p float="left">
-  <img src="assets/layersacc1.png"  width="420"/>
+  <img src="assets/layersacc2.png"  width="420"/>
 </p>
 
 ## CIFAR-10:
@@ -91,5 +91,10 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |Mish|84.96%|4.381%|
 |Swish|85.73%|**4.175%**|
 |ELU|83.17%|4.875%|
+|SELU|81.12%|5.581%|
+|Leaky ReLU|84.08%|4.757%|
+|PReLU|83.84%|4.831%|
+|TanH|76.68%|6.75%|
+|SoftPlus|83.83%|4.799%|
 
 <div style="text-align:center"><img src ="assets/squeezenet1.png"  width="1000"/></div>
