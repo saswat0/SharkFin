@@ -67,7 +67,7 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 
 - Epoch - *20*
 - Optimizer - *Adam*
-- Number of Runs - 1
+- Number of Runs - *1*
 
 |Activation Function |Test Accuracy|Test Loss|
 |:---:|:---:|:---:|
