@@ -61,3 +61,4 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 |SELU|76.363%|9.380397%|2.0838639|0.6248774|
 |ELU|80.387%|8.02079%|2.444931|0.8199566|
 |Leaky ReLU|77.68%|8.79255%|1.0717275|0.4718626|
+|PReLU|78.436%|8.82069%|1.506659|0.5329421|
