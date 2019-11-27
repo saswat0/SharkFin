@@ -26,7 +26,7 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 Drop in Test accuracy with increasing depth for MNIST classification:
 
 <p float="left">
-  <img src="assets/layersacc1.png"  width="420"/>
+  <img src="assets/layersacc.png"  width="420"/>
 </p>
 
 ## CIFAR-10:
