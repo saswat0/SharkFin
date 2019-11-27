@@ -62,6 +62,8 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 |ELU|80.387%|8.02079%|2.444931|0.8199566|
 |Leaky ReLU|77.68%|8.79255%|1.0717275|0.4718626|
 |PReLU|78.436%|8.82069%|1.506659|0.5329421|
+|Tanh|61.783%|13.723%|6.305005|1.893993|
+|SoftPlus|74.12%|10.71375%|4.335004|2.203364|
 
 ### Squeeze Net:
 
