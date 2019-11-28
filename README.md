@@ -134,3 +134,29 @@ Drop in Test accuracy with increasing depth for MNIST classification:
 |Leaky ReLU|87.51%|3.76%|
 |Mish|89.42%|3.472%|
 |Swish|88.88%|3.619%|
+|ReLU|**89.65%**|**3.409%**|
+|ELU|86.3%|4.304%|
+|SELU|85.67%|4.348%|
+|Softplus|84.17%|4.972%|
+|TanH|81.81%|5.48%|
+|PReLU|85.63%|5.3%|
+
+### Inception v3:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *1*
+
+|Activation Function |Test Accuracy|Test Loss|
+|:---:|:---:|:---:|
+|SharkFin v1|86.86%|3.853%|
+|SharkFin v2|**88.33%**|3.48%|
+|Mish|87.47%|3.671%|
+|Swish|86.12%|4.111%|
+|ReLU|88.21%|**3.444%**|
+|ELU|84.5%|4.558%|
+|SELU|79.56%|6.101%|
+|SoftPlus|82.19%|5.55%|
+|TanH|78.89%|6.115%|
+|PReLU|85.87%|4.196%|
+|Leaky ReLU|84.65%|4.562%|
