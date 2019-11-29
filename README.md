@@ -24,8 +24,8 @@ SharkFin v2 is a modified smoother version of SharkFin v1 which has the followin
 Zoomed in positive and negative domains of SharkFins:
 
 <p float="left">
-  <img src="assets/negative.png"  width="420"/>
-  <img src="assets/positive.png"  width="420"/>
+  <img src="assets/negative1.png"  width="420"/>
+  <img src="assets/positive1.png"  width="420"/>
 </p>
 
 Derivative of SharkFin v1: 
