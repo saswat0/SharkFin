@@ -35,6 +35,10 @@ Drop in Test accuracy with increasing depth for MNIST classification:
   <img src="assets/layersacc2.png"  width="420"/>
 </p>
 
+Effect of Increasing Input Gaussian Noise on MNIST:
+
+<div style="text-align:center"><img src ="assets/noise.png"  width="1000"/></div>
+
 ## CIFAR-10:
 
 ### ResNet 20
