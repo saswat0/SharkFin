@@ -91,6 +91,58 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Tanh|61.783%|13.723%|6.305005|1.893993|
 |SoftPlus|74.12%|10.71375%|4.335004|2.203364|
 
+### ResNet 110
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|79.586%|8.935%|1.3276|0.7712|
+|Swish|81.866%|7.768%|1.3733|0.5738|
+
+### DenseNet 121:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|88.72%|3.5036%|0.6205|0.2128|
+
+### DenseNet 161:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|88.056%|3.6893%|0.0492|0.0476|
+
+### DenseNet 169:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|88.043%|3.912%|0.7153|0.285|
+
+### DenseNet 201:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|88.923%|3.4056%|0.0865|0.0391|
+|Swish|||||
+
 ### Squeeze Net:
 
 - Epoch - *20*
