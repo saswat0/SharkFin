@@ -79,8 +79,8 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |SharkFin v1|**82.167%**|8.9934%|0.984626|0.4272043|
-|SharkFin v2|81.726%|8.27379%|0.7684327|0.4026965|
-|Swish|81.44%|**7.83062%**|**0.7884584**|**0.1659273**|
+|SharkFin v2|81.726%|8.27379%|**0.7684327**|0.4026965|
+|Swish|81.44%|**7.83062%**|0.7884584|**0.1659273**|
 |ReLU|79.323%|8.7444%|1.082507|0.27063429|
 |Mish|81.97%|7.8868%|0.803616|0.31262063|
 |SELU|76.363%|9.380397%|2.0838639|0.6248774|
@@ -111,63 +111,3 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SoftPlus|83.83%|4.799%|
 
 <div style="text-align:center"><img src ="assets/squeezenet1.png"  width="1000"/></div>
-
-### Shuffle Net v1:
-
-- Epoch - *20*
-- Optimizer - *Adam*
-- Number of Runs - *1*
-
-|Activation Function |Test Accuracy|Test Loss|
-|:---:|:---:|:---:|
-|SharkFin v1|83.49%|4.925%|
-|SharkFin v2|84.3%|4.834%|
-|ReLU|82.18%|5.528%|
-|Mish|**84.71%**|**4.712%**|
-|Swish|83.29%|5.056%|
-|ELU|84.51%|4.737%|
-|SELU|83.7%|4.94%|
-|Leaky ReLU|83.95%|4.816%|
-|PReLU|83.76%|5.086%|
-|TanH|76.15%|6.817%|
-|SoftPlus|83.22%|5.151%|
-
-### SE ResNet-34:
-
-- Epoch - *20*
-- Optimizer - *Adam*
-- Number of Runs - *1*
-
-|Activation Function |Test Accuracy|Test Loss|
-|:---:|:---:|:---:|
-|SharkFin v1|88.51%|3.852%|
-|SharkFin v2|88.93%|3.653%|
-|Leaky ReLU|87.51%|3.76%|
-|Mish|89.42%|3.472%|
-|Swish|88.88%|3.619%|
-|ReLU|**89.65%**|**3.409%**|
-|ELU|86.3%|4.304%|
-|SELU|85.67%|4.348%|
-|Softplus|84.17%|4.972%|
-|TanH|81.81%|5.48%|
-|PReLU|85.63%|5.3%|
-
-### Inception v3:
-
-- Epoch - *20*
-- Optimizer - *Adam*
-- Number of Runs - *1*
-
-|Activation Function |Test Accuracy|Test Loss|
-|:---:|:---:|:---:|
-|SharkFin v1|86.86%|3.853%|
-|SharkFin v2|**88.33%**|3.48%|
-|Mish|87.47%|3.671%|
-|Swish|86.12%|4.111%|
-|ReLU|88.21%|**3.444%**|
-|ELU|84.5%|4.558%|
-|SELU|79.56%|6.101%|
-|SoftPlus|82.19%|5.55%|
-|TanH|78.89%|6.115%|
-|PReLU|85.87%|4.196%|
-|Leaky ReLU|84.65%|4.562%|
