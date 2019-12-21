@@ -36,10 +36,11 @@ Output Landscape of a randomly initialized six-layered fully connected network w
 
 <div style="text-align:center"><img src ="assets/landskape.png"  width="1000"/></div>
 
-Drop in Test accuracy with increasing depth for MNIST classification:
+Variation of Test accuracy with increasing depth for MNIST classification and increasing Learning Rate for CIFAR-10 classification:
 
 <p float="left">
   <img src="assets/layersacc2.png"  width="420"/>
+  <img src="assets/lr_fin.png"  width="420"/>
 </p>
 
 Effect of Increasing Input Gaussian Noise on MNIST:
