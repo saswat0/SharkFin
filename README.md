@@ -101,6 +101,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |:---:|:---:|:---:|:---:|:---:|
 |Mish|79.586%|8.935%|1.3276|0.7712|
 |Swish|81.866%|7.768%|1.3733|0.5738|
+|ReLU|79.93%|8.7526%|1.97283|0.78605|
 
 ### DenseNet 121:
 
@@ -121,6 +122,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |Mish|88.056%|3.6893%|0.0492|0.0476|
+|Swish|88.206%|3.6803%|0.26911|0.09676|
 
 ### DenseNet 169:
 
