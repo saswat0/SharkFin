@@ -150,6 +150,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |SharkFin v1|88.153%|3.6123%|0.25037|0.07541|
+|SharkFin v2|88.303%|3.545%|0.40827|0.1465|
 |Mish|88.923%|3.4056%|0.0865|0.0391|
 |Swish|88.223%|3.734%|0.8794|0.3249|
 
