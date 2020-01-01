@@ -104,6 +104,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Mish|79.586%|8.935%|1.3276|0.7712|
 |Swish|81.866%|7.768%|1.3733|0.5738|
 |ReLU|79.93%|8.7526%|1.97283|0.78605|
+|Leaky ReLU|75.58%|9.8792%|0.883|0.4731|
 
 ### DenseNet 121:
 
@@ -153,6 +154,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SharkFin v2|88.303%|3.545%|0.40827|0.1465|
 |Mish|88.923%|3.4056%|0.0865|0.0391|
 |Swish|88.223%|3.734%|0.8794|0.3249|
+|ELU|88.12%|3.5056%|0.2885|0.109|
 
 ### MobileNet v1
 
@@ -253,6 +255,24 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SoftPlus|81.65%|5.947%|0.811|0.4259|
 |Leaky ReLU|**88.27%**|**3.6376%**|0.7186|0.2139|
 |PReLU|86.44%|4.383%|1.1086|0.4608|
+
+### Inception v3
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|Mish|88.026%|3.609%|0.1376|0.0962|
+|Swish|86.13%|4.09%|0.3642|0.238|
+|ReLU|87.33%|3.838%|1.1725|0.2889|
+|SELU|81.13%|5.458%|0.813|0.2523|
+|ELU|83.82%|4.683%|0.9385|0.2807|
+|TanH|77.93%|6.384%|0.4411|0.0976|
+|SoftPlus|83.22%|5.0953%|0.8141|0.3352|
+|Leaky ReLU|87.09%|3.833%|0.5516|0.1119|
+|PReLU|86.43%|4.157%|0.2219|0.1081|
 
 ### Shuffle Net v1
 
