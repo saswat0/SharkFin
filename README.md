@@ -105,6 +105,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Swish|81.866%|7.768%|1.3733|0.5738|
 |ReLU|79.93%|8.7526%|1.97283|0.78605|
 |Leaky ReLU|75.58%|9.8792%|0.883|0.4731|
+|ELU|76.9%|9.3761%|2.82567|1.0487|
 
 ### DenseNet 121:
 
