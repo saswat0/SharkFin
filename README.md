@@ -106,6 +106,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |ReLU|79.93%|8.7526%|1.97283|0.78605|
 |Leaky ReLU|75.58%|9.8792%|0.883|0.4731|
 |ELU|76.9%|9.3761%|2.82567|1.0487|
+|PReLU|80.206%|8.3041%|2.4421|0.65091|
 
 ### DenseNet 121:
 
