@@ -158,6 +158,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |ELU|88.12%|3.5056%|0.2885|0.109|
 |Leaky ReLU|88.64%|3.525%|0.6023|0.1443|
 |SELU|88.113%|3.5523%|0.1837|0.01987|
+|Tanh|87.326%|3.914%|0.27108|0.09835|
 
 ### MobileNet v1
 
