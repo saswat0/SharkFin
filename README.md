@@ -120,6 +120,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SharkFin v1|88.86%|3.479%|0.2392|0.07934|
 |Mish|88.72%|3.5036%|0.6205|0.2128|
 |Swish|88.53%|3.556%|0.32998|0.06773|
+|ReLU|88,783%|3.446%|0.4219267|0.0894017|
 
 ### DenseNet 161:
 
