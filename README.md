@@ -111,6 +111,16 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SoftPlus|66.21%|15.0434%|10.5295|6.215523|
 |TanH|56.3%|17.4193%|4.213976|2.754786|
 
+### ResNet 164
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|TanH|61.31%|14.751%|5.18421|2.22721|
+
 ### DenseNet 121:
 
 - Epoch - *20*
@@ -152,6 +162,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Mish|88.043%|3.912%|0.7153|0.285|
 |Swish|88.516%|3.647%|0.29488|0.12399|
 |ReLU|88.57%|3.5706%|0.20314|0.040532|
+|PReLU|87.22%|4.449%|0.270102|0.1020881|
 
 ### DenseNet 201:
 
