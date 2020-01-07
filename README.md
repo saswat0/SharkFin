@@ -171,6 +171,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SELU|88.113%|3.5523%|0.1837|**0.01987**|
 |Tanh|87.326%|3.914%|0.27108|0.09835|
 |SoftPlus|87.776%|4.0336%|0.154344|0.071899|
+|PReLU|87.893%|4.2%|0.659|0.324834|
 
 ### MobileNet v1
 
