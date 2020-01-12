@@ -119,6 +119,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
+|Mish|78.543%|8.8959%|2.5955|0.849362|
 |TanH|61.31%|14.751%|5.18421|2.22721|
 |ELU|74.573%|10.1251%|1.254042|0.42463|
 |SELU|59.0766%|17.6073%|3.777674|3.745841|
