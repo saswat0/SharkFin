@@ -391,3 +391,205 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SoftPlus|83.83%|4.799%|
 
 <div style="text-align:center"><img src ="assets/squeezenet1.png"  width="1000"/></div>
+
+## CIFAR-100:
+
+### DenseNet 121:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|62.793%|14.3876%|0.58659|0.40896807|
+|SharkFin v2|62.876%|14.237%|0.3209707|0.35309016|
+|Mish|62.36%|14.5243%2|0.237223|
+|Swish|62.526%|14.564%|0.0895668|0.06231104|
+|ReLU|
+|PReLU|
+|ELU|63.8233%|14.112%|0.403347107|0.08363412|
+|SELU|63.14%|14.1743%|0.26870057|0.2252174|
+|SoftPlus|
+|Leaky ReLU|63.633%|14.5356%|0.4348435|0.2046465|
+|TanH|62.806%|14.0653%|0.7973428|0.3438646|
+
+### DenseNet 169:
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|63.15%|15.11%|0.8533|0.4768|
+|SharkFin v2|**63.57%**|**14.96%**|0.7776|0.4294|
+|Mish|63.06%|16.22%|0.455|0.1044|
+|Swish|62.5%|16.57%|1.261|0.5739|
+|ReLU|62.24%|16.42%|1.0478|0.6089|
+|SELU|63.47%|14.65%|**0.0956**|**0.0671**|
+|ELU|63.06%|15.35%|0.1189|0.235|
+|TanH|62.78%|14.89%|0.2191|0.1464|
+|SoftPlus|61.34%|16.036%|0.504|0.1606|
+|Leaky ReLU|61.87%|15.95%|1.0881|0.3336|
+|PReLU|58.75%|21.307%|0.883|0.28|
+
+### MobileNet v1
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|51.126%|20.55%|0.5231|0.2105|
+|SharkFin v2|49.16%|23.242%|**0.0679**|0.1568|
+|Mish|50.493%|23.59%|0.376|0.3158|
+|Swish|48.776%|24.697%|0.7098|0.8172|
+|ReLU|47.813%|21.094%|0.2085|**0.042**|
+|SELU|50.736%|20.45%|0.2623|0.1783|
+|ELU|**53.696%**|20.973%|0.3691|0.1936|
+|TanH|42.683%|24.28%|0.4739|0.2692|
+|SoftPlus|51.09%|21.258%|0.1867|0.1148|
+|Leaky ReLU|53.06%|**19.98%**|0.2131|0.1953|
+|PReLU|49.936%|23.048%|0.3164|0.2944|
+
+### MobileNet v2
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|51.02%|18.147%|0.3627|0.1438|
+|SharkFin v2|51.56%|18.014%|**0.0927**|**0.0535**|
+|Mish|52.29%|17.741%|0.401|0.1331|
+|Swish|**52.56%**|**17.636%**|0.2083|0.0749|
+|ReLU|48.8%|19.332%|0.4733|0.367|
+|SELU|45.41%|20.721%|0.8193|0.355|
+|ELU|50.57%|18.42%|0.2536|0.1825|
+|TanH|42.53%|22.03%|0.4576|0.1462|
+|SoftPlus|46.09%|20.27%|0.2932|0.2474|
+|Leaky ReLU|49.44%|18.68%|0.5438|0.1622|
+|PReLU|49.25%|18.99%|0.2209|0.1529|
+
+### Squeeze Excite ResNet-18
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|62.1%|16.724%|0.2289|**0.0744**|
+|SharkFin v2|**63.48%**|16.625%|0.2651|0.1089|
+|Mish|63.34%|16.3%|0.3542|0.2483|
+|Swish|63.45%|16.41%|**0.143**|0.1407|
+|ReLU|62.52%|16.424%|0.3371|0.1304|
+|SELU|59.81%|15.81%|0.6218|0.245|
+|ELU|60.84%|15.6%|0.5105|0.2592|
+|TanH|58.53%|15.42%|0.7917|0.444|
+|SoftPlus|59.93%|**15.217%**|0.214|0.1165|
+|Leaky ReLU|61.34%|15.64%|0.6284|0.3697|
+|PReLU|60.243%|18.55%|0.4092|0.4577|
+
+### Squeeze Excite ResNet-34
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|61.746%|16.972%|0.6177|0.3137|
+|SharkFin v2|||||
+|Mish|**62.61%**|16.944%|0.4754|0.2169|
+|Swish|62.37%|16.85%|**0.2715**|**0.0662**|
+|ReLU|61.14%|16.75%|0.5685|0.4516|
+|SELU|58.616%|16.424%|0.5142|0.4044|
+|ELU|59.99%|16.028%|0.8593|0.1533|
+|TanH|58.85%|15.88%|0.3412|0.0866|
+|SoftPlus|58.6%|16.03%|0.537|0.4072|
+|Leaky ReLU|60.77%|**15.732%**|0.7057|0.2782|
+|PReLU|61.32%|17.838%|0.8351|0.6368|
+
+### Squeeze Excite ResNet-50
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|||||
+|SharkFin v2|||||
+|Mish|60.89%|17.26%|0.2863|0.1801|
+|Swish|59.82%|17.434%|0.3167|0.5291|
+|ReLU|**61.23%**|16.33%|0.2342|0.3307|
+|SELU|55.87%|18.86%|0.4814|0.1354|
+|ELU|58.88%|18.439%|0.3137|0.3505|
+|TanH|54.15%|17.78%|**0.2248**|**0.119**|
+|SoftPlus|51.16%|22.33%|0.5942|0.9463|
+|Leaky ReLU|59.96%|**16.29%**|0.3934|0.2947|
+|PReLU|57.66%|19.09%|0.6863|0.2398|
+
+### Inception v3
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|
+|SharkFin v2|**64.58%**|**12.87%**|0.3501|0.1401|
+|Mish|64.12%|12.93%|0.582|0.2404|
+|Swish|62.29%|13.59%|0.4905|0.0681|
+|ReLU|63.46%|13.13%|0.8644|0.3063|
+|SELU|51.49%|18.13%|0.6595|0.32|
+|ELU|58.51%|14.96%|0.1993|**0.0308**|
+|TanH|48.58%|19.29%|**0.1189**|0.1711|
+|SoftPlus|53.57%|17.01%|1.405|0.613|
+|Leaky ReLU|58.76%|14.912%|1.1617|0.666|
+|PReLU|58.72%|19.06%|0.6115|0.373|
+
+### Shuffle Net v1
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|58.66%|16.1%|0.2633|0.245|
+|SharkFin v2|57.86%|16.81%|0.6591|0.1414|
+|Mish|58.34%|16.88%|**0.1483**|0.0823|
+|Swish|58.25%|17.28%|0.2863|0.2877|
+|ReLU|56.94%|16.98%|0.2785|0.1113|
+|SELU|59.71%|15.67%|0.3586|0.1785|
+|ELU|**60.24%**|**15.346%**|0.552|0.175|
+|TanH|47.47%|19.9%|0.1717|**0.0589**|
+|SoftPlus|55.24%|18.51%|0.7545|1.0927|
+|Leaky ReLU|59.2%|15.573%|0.1778|0.1483|
+|PReLU|57.85%|16.549%|0.3456|0.2759|
+
+### Shuffle Net v2
+
+- Epoch - *20*
+- Optimizer - *Adam*
+- Number of Runs - *3*
+
+|Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
+|:---:|:---:|:---:|:---:|:---:|
+|SharkFin v1|58.12%|16.019%|**0.2245**|0.1906|
+|SharkFin v2|57.8%|16.51%|0.305|0.2201|
+|Mish|58.293%|16.393%|0.2301|0.2005|
+|Swish|57.64%|16.744%|0.2546|0.2286|
+|ReLU|56.17%|16.8%|0.6352|0.2531|
+|SELU|55.64%|16.47%|0.5473|0.1305|
+|ELU|57.96%|15.86%|0.4208|0.1718|
+|TanH|49.46%|19.242%|0.2786|**0.0874**|
+|SoftPlus|57.47%|16.25%|0.6025|0.2429|
+|Leaky ReLU|**58.2966%**|**15.59%**|0.462|0.2044|
+|PReLU|54.77%|17.95%|0.6761|0.4731|
