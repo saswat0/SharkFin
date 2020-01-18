@@ -120,7 +120,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |Activation Function|μ <sub>Test Accuracy</sub>|μ <sub>Test Loss</sub>|σ <sub>accuracy</sub>|σ <sub>loss</sub>|
 |:---:|:---:|:---:|:---:|:---:|
 |SharkFin v1|79.823%|10.4182%|0.9040771|0.3934231|
-|SharkFin v2|84.11%|7.15027%|0.5734689|0.1299062|
+|SharkFin v2|**84.11%**|**7.15027%**|**0.5734689**|**0.1299062**|
 |Mish|78.543%|8.8959%|2.5955|0.849362|
 |Swish|77.44%|9.6548%|6.305489|2.775403|
 |ReLU|79.4%|8.95317%|4.072255|1.5540318|
@@ -129,6 +129,7 @@ Effect of Increasing Input Gaussian Noise on MNIST:
 |SELU|59.0766%|17.6073%|3.777674|3.745841|
 |SoftPlus|64.756%|14.96%|4.373666|3.282668|
 |Leaky ReLU|77.596%|8.7586%|2.0747744|0.7471442|
+|PReLU|80.416%|8.3671%|1.5624837|0.56394602|
 
 ### DenseNet 121:
 
